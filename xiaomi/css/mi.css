@@ -1,0 +1,482 @@
+*{margin: 0;
+padding: 0;
+}
+.m1{width: 1519px;
+height: 40px;
+background-color: #424242;
+}
+.cen{width: 1226px;
+height: 100%;
+/* background-color: #424242; */
+margin: 0 auto;
+}
+.m1 .cen{position: relative;}
+
+ul{list-style: none;}
+
+.m1 li{
+    display: inline-block;
+    line-height: 40px;
+}
+.m1 a{
+    text-decoration: none;
+    font-size: 12px;
+    color: #B0B0B0;
+}
+.m1 a:hover{
+    color: white;
+}
+.m1 span{
+    margin-left: 5px;
+    margin-right: 5px;
+    font-size: 12px;
+    color: #424242;
+}
+.m1 .right li{
+    float: right;
+}
+.m1 .right{
+    width: 415px;
+    height: 100%;
+font-size: 12px;
+    
+    position: absolute;
+    top: 0px;
+    right: 0px;
+}
+.m1 .right .gwc{
+ 
+    width: 120px;
+    height: 40px;
+    background-color: gray;
+    margin-left: 30px;
+}
+.m1 .right .span{
+    margin-left: 7px;
+    margin-right: 7px;
+}
+.m1 .right .iconfont{margin-right: 5px;}
+/* 标题结束 */
+/* 导航开始 */
+.m2 .mv{
+    position: relative;
+    width: 1226px;
+    height: 100px;
+    background-color: white;
+}
+.m2 .mv img{
+   float: left;
+    width: 56px;
+    height: 56px;
+   margin-top: 28px;
+   margin-left: 5px;
+}
+.m2 .left{
+  
+width: 600px;
+height: 100px;
+
+margin-left: 250px;
+
+}
+.m2 .left li{
+    display: inline-block;
+    line-height: 100px;
+}
+.m2 .left li a{
+    text-decoration: none;
+    padding: 0 8px;
+    font-size: 15px;
+    color: #333333;
+}
+.m2 .right{
+    position: absolute;
+    top: 0;
+    right: 0;
+   float: right;
+    width: 306px;
+    height: 100px;
+   text-align: center;
+}
+.m2 .right .ss{
+ 
+    
+width: 245px;
+height: 50px;
+margin-top: 25px;
+}
+.m2 .right .fdj{
+    width: 52px;
+    height: 50px; 
+    background-color: white;
+    position: absolute;
+    top: 25px;
+}
+.m2 .right .fdj:hover{
+    background-color: orange;
+    color: white;
+}
+/* 导航结束 */
+/* 轮播图开始 */
+.lbt{
+    /* position: relative; */
+    width: 1226px;
+    height: 460px;
+  
+  animation: go 30s infinite alternate;
+}
+@keyframes go {
+    0%{   background-image: url(https://cdn.cnbj1.fds.api.mi-img.com/mi-mall/787aa7b48a79ed5411fec2f1854f66bb.jpg?w=2452&h=920);
+    }
+    25%{  background-image: url(https://cdn.cnbj1.fds.api.mi-img.com/mi-mall/b717c9c84e44409496e993ed6b526c05.jpg?thumb=1&w=1839&h=690&f=webp&q=90);
+    }
+    75%{  background-image: url(https://cdn.cnbj1.fds.api.mi-img.com/mi-mall/b158441e01e7acd9ad27a49bbac4c0fa.jpg?thumb=1&w=1839&h=690&f=webp&q=90);
+    }
+    100%{  background-image: url(https://cdn.cnbj1.fds.api.mi-img.com/mi-mall/c6240d955a94333a05c3ce26817a15c7.jpg?thumb=1&w=1839&h=690&f=webp&q=90);
+    }
+}
+.m3 .cen{position: relative;}
+.m3 .left{
+    position: absolute;
+    left: 0;
+    top: 0;
+    float: left;
+    width: 234px;
+    height: 460px;
+   background-color: gray;
+   opacity: 0.5;
+   
+}
+.m3 .left ul{
+    margin: 25px 0;
+    
+}
+.m3 .left li{
+   float: left;
+    width: 234px;
+height: 42px;
+margin-left: 25px;
+}
+/* .m3 .left li:hover{
+    background-color: orange;
+} */
+.m3 .left a{
+   float: left;
+    font-size: 14px;
+    text-decoration: none;
+    color: #ffffff;
+}
+.m3 .left li span{
+    float:right;
+   font-size: 16px;
+   color:#ffffff;
+   margin-right: 45px;
+}
+/* 轮播图结束 */
+/* 小图开始 */
+.xt{
+    width: 1226px;
+    height: 170px;
+    /* background-color: red; */
+    margin-top: 15px;
+}
+.m4 .xt .left{
+    width: 234px;
+    height: 170px;
+   float: left;
+}
+
+
+.m4 .xt .left img{
+    float: left;
+    width: 236px;
+    height: 170px;
+}
+.m4 .xt .right{
+    float: right;
+    width: 992px;
+    height: 170px;
+    background-color: white;
+
+}
+.m4 .xt .right li{
+    display: inline-block;
+    width: 316px;
+    height: 170px;
+  background-color: pink;
+    margin-left: 11px;
+}
+.m4 .xt .right li img{
+    display: block;
+    width: 316px;
+    height: 170px;
+    
+}
+
+/* 小图结束 */
+
+/* 小版图开始 */
+.m5{
+    width: 1519px;
+    height: 850px;
+    background-color: #F5F5F5;
+    /* background-color: white; */
+    margin-top: 30px;
+}
+.m5 .xbt img{
+    margin-top: 30px;
+    width: 1226px;
+    height: 120px;
+   
+}
+.m5 .mu{
+    width: 1226px;
+    height: 58px;
+    
+}
+.m5 .mu h2{
+    float: left;
+    line-height: 20px;
+    margin-top: 20px;
+    color: #333333;
+    font-size: 22px;
+    font-weight: 100;
+}
+.m5 .mu a{
+    float: right;
+    font-size: 16px;
+    color: black;
+    text-decoration: none;
+    margin-top: 17px;
+    
+}
+.m5 .mu a span{
+    margin-left: 10px;
+    width: 1000px;
+    height: 1000px;
+    border-radius: 50%;
+  background-color: gray;
+}
+.m5 .mu a:hover{
+    color: orange;
+}
+.m5 .mu a span:hover{
+    color: white;
+    background-color: orange;
+}
+/* 标题开始 */
+.m5 .bt{
+    position: relative;
+    width: 1226px;
+    height: 614px;
+    /* background-color: pink; */
+}
+.m5 .bt .left{
+    /* float: left; */
+    width: 234px;
+    height: 614px;
+  background-color: white;
+}
+.m5 .bt .left img{
+    width: 234px;
+    height: 614px;
+}
+.m5 .bt .right{
+    position: absolute;
+    top: 0;
+    right: 0;
+   
+    width: 992px;
+    height: 614px;
+    /* background-color: white; */
+}
+.m5 .bt .right li{
+    background-color: white;
+    display: inline-block;
+    width: 234px;
+    height: 300px;
+    /* background-color: white; */
+    margin-left: 10px;
+}
+.m5 .bt .right li:hover{
+    transform: translate(0,-3px);
+    box-shadow: 2px 2px 15px gray;
+}
+
+.m5 .bt .right li:nth-last-child(4){
+    margin-top: 9px;
+}
+/* .m5 .bt .right a{
+    background-color: white;
+} */
+.m5 .bt .right li .t{
+    width: 160px;
+    height: 160px;
+    /* background-color: blue; */
+    background-image: url(../img/0bcd64f412dfb5e15695fa96d21ecb23.png);
+       background-size: cover;
+       margin: 0 auto;
+       margin-top: 30px;
+}
+.m5 .bt .right li span{
+    float: left;
+   margin-left: 75px;
+  margin-top: 20px;
+  font-size: 12px;
+  color: black;
+}
+.m5 .bt .right li p{
+    float: left;
+    font-size: 10px;
+    margin-left: 20px;
+    margin-top: 5px;
+    color: #B0B0B0;
+}
+.m5 .bt .right li i{
+    float: left;
+    color: red;
+    font-size: 12px;
+    margin-top: 10px;
+    margin-left: 90px;
+   font-style: normal;
+}
+/* 标题结束 */
+
+/* 小版图结束 */
+/* 结尾开始 */
+.m6 .bt{
+    width: 1226px;
+    height: 80px;
+    /* background-color: red; */
+    border-bottom: 1px solid gray;
+}
+.m6 .bt li{
+    display: inline-block;
+   
+    line-height: 80px;
+    padding: 0 35px;
+}
+.m6 .bt a{
+    text-decoration: none;
+    color: black;
+    font-size: 15px;
+}
+.m6 .bt a:hover{
+    color: orange;
+}
+.m6 .bt span{
+    margin-left: 70px;
+   
+}
+.m6 .bt .p{
+    padding-left: 40px;
+}
+.m6 .jw{
+    position: relative;
+    width: 1226px;
+    height: 252px;
+    /* background-color: pink; */
+}
+.m6 .jw .left{
+    position: absolute;
+    top: 50px;
+    width: 480px;
+    height: 116.33px;
+    /* background-color: red; */
+  
+}
+.m6 .jw .left .p1{
+    width: 156px;
+    height: 116.33px;
+    /* background-color: orange; */
+    display: inline-block;
+}
+.m6 .jw .left .p1 dt{
+    font-size: 14px;
+    color: #424242;
+}
+.m6 .jw .left .p1 dd{
+  padding-top: 10px;
+    
+}
+.m6 .jw .left .p1 a{
+    text-decoration: none;
+    font-size: 12px;
+    color: #757575;
+}
+/* 右边 */
+.m6 .jw .right{
+  position: absolute;
+ 
+  left: 480px;
+  top: 0px;
+    width: 480px;
+    height: 172px;
+    /* background-color: green; */
+}
+.m6 .jw .right dt{
+    color: #424242;
+    font-size: 14px;
+}
+.m6 .jw .right .p2{
+   float: left;
+    width: 160px;
+    height: 170px;
+    /* background-color: orange; */
+    
+}
+/* .m6 .jw .right .p2 dd{
+  
+    padding-top: 10px;
+      
+  } */
+.m6 .jw .right .p2 a{
+  
+    text-decoration: none;
+    font-size: 12px;
+    color: #757575;
+}
+.m6 .jw .you{
+    position: absolute;
+    top: 50px;
+    right: 0;
+    
+    
+    width: 252px;
+    height: 111px;
+    /* background-color: red; */
+}
+.m6 .jw .you h3{
+    color: orange;
+    text-align: center;
+}
+.m6 .jw .you p{
+    color: #616161;
+    padding-left: 60px;
+    font-size: 6px;
+    margin-top: 5px;
+
+}
+.m6 .jw .you i{
+    width: 120px;
+    height: 30px;
+    /* background-color: pink; */
+    display: inline-block;
+    margin-top: 10px;
+    margin-left: 60px;
+font-style: normal;
+text-align: center;
+font-size: 6px;
+line-height: 30px;
+border: 1px solid #FF6700;
+color: #FF6700;
+}
+.m6 .jw .you i:hover{
+    background-color: #FF6700;
+    color: white;
+
+}
+.m6 .jw .you .p1{
+   margin-top: 10px;
+}
+/* 结尾结束 */
