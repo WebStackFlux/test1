@@ -51,6 +51,23 @@ font-size: 12px;
     background-color: gray;
     margin-left: 30px;
 }
+.m1 .right .gwcx{
+    position: absolute;
+    top: 40px;
+    right: 0px;
+    width: 250px;
+    height: 100px;
+    /* background-color: orange; */
+   /* visibility: hidden;    */
+   display: none;
+   z-index: 31;
+   /* border: 1px solid black; */
+   box-shadow: 1px 1px 1px gray;
+ 
+}
+.m1 .right:hover .gwcx{
+    display: inline;
+}
 .m1 .right .span{
     margin-left: 7px;
     margin-right: 7px;
@@ -59,6 +76,7 @@ font-size: 12px;
 /* 标题结束 */
 /* 导航开始 */
 .m2 .mv{
+    /* margin-top: 100px; */
     position: relative;
     width: 1226px;
     height: 100px;
@@ -88,6 +106,10 @@ margin-left: 250px;
     padding: 0 8px;
     font-size: 15px;
     color: #333333;
+}
+
+.m2 .left li a:hover{
+    color: #FF6700;
 }
 .m2 .right{
     position: absolute;
@@ -161,17 +183,18 @@ margin-left: 25px;
     background-color: orange;
 } */
 .m3 .left a{
-   float: left;
+   /* float: left; */
     font-size: 14px;
     text-decoration: none;
     color: #ffffff;
 }
-.m3 .left li span{
+.m3 .left li a span{
     float:right;
    font-size: 16px;
    color:#ffffff;
    margin-right: 45px;
 }
+
 /* 轮播图结束 */
 /* 小图开始 */
 .xt{
@@ -354,12 +377,18 @@ margin-left: 25px;
     display: inline-block;
    
     line-height: 80px;
-    padding: 0 35px;
+    padding: 0 30px;
 }
+
+
 .m6 .bt a{
     text-decoration: none;
     color: black;
     font-size: 15px;
+}
+.m6 .bt i{
+    font-size: 24px;
+    color: #616161;
 }
 .m6 .bt a:hover{
     color: orange;
