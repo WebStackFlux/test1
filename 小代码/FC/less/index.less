@@ -1,0 +1,136 @@
+@import './base';
+@import './normalize';
+
+// 变量: 存储37.5
+@rootSize: 37.5rem;
+
+body {
+    background-color: #F0F0F0;
+}
+// 整体开始
+.main{
+    
+    img{
+        height: (160 / @rootSize);
+    }
+    h5{
+       margin: (10 / @rootSize) (15 / @rootSize);
+        font-size: (14 / @rootSize);
+    }
+    .tp{
+        position: relative;
+        width: 100%;
+        height: (160 / @rootSize);
+        
+       background-color: pink;
+        p{
+            width: (24 / @rootSize);
+           height: (24 / @rootSize);
+        //    background-color: blue;
+           background-size: cover;
+            background-image: url(../uploads/heart.png);
+            position: absolute;
+            top: (20 / @rootSize);
+            right: (20 / @rootSize) ; }
+      .p1{
+          position: absolute;
+          left: 0;
+          top: 0;
+            width: (68 / @rootSize);
+            height: (29 / @rootSize);
+            left: (15 / @rootSize);
+            top: (-5 / @rootSize);
+            line-height: (25 / @rootSize);
+            font-size: (12 / @rootSize);
+            text-align: center;
+            background-image: url(../images/status_active.png);
+    }
+    }
+    .size{
+        width: 100%;
+        height: (77 / @rootSize);
+        // background-color: pink;
+        position: relative;
+        .box{
+           
+            width: (356 / @rootSize);
+            height: (57 / @rootSize);
+            // background-color: red;
+          
+          
+           .top{
+        
+               display: flex;
+               justify-content: space-between;
+               width: (345 / @rootSize);
+               height: (33 / @rootSize);
+            //    background-color: orange;
+               h5{
+              
+               width: (290 / @rootSize);
+               height: (33 / @rootSize);
+               color: #3c3c3c;
+               }
+               p{
+                   position: absolute;
+                   top: (7 / @rootSize);
+                   right: (10 / @rootSize);
+                width: (30 / @rootSize);
+                height: (33 / @rootSize);
+                font-size: (14 / @rootSize);
+                color: red;
+            }
+               
+               
+           }
+           .bottom{
+               display: flex;
+               width: (345 / @rootSize);
+               height: (14 / @rootSize);
+            //    background-color: pink;
+               margin-top: (10 / @rootSize);
+               margin-left: (15 / @rootSize);
+               color: #b4b4b4;
+               p{
+                   font-size: (12 / @rootSize);
+               }
+               span{
+                   font-size: (12 / @rootSize);
+                   margin-left: (10 / @rootSize);
+               }
+           }
+        }
+    }
+    }
+
+// 整体结束
+
+
+// 底部开始
+.footer{
+    position: relative;
+    display: flex;
+    justify-content: space-around;
+    
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: (45 / @rootSize);
+    background-color: #efca49;
+    color: #d78b09;
+    .p1{
+        color: white;
+    }
+    p{  text-align: center;
+        font-size: (25 / @rootSize);
+     
+    }
+    span{
+      position: absolute;
+      bottom: (3 / @rootSize);
+        font-size: (13 / @rootSize);
+       
+    }
+}
+// 底部结束
